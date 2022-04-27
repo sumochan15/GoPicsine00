@@ -3,8 +3,8 @@ package	piscine
 import	"ft"
 
 func PrintReverseAlphabet() {
-	for zyx := 'z'; zyx >= 'a'; zyx--{
-		ft.PrintRune(zyx)
+	for za := 'z'; za >= 'a'; za--{
+		ft.PrintRune(za)
 	}
 	ft.PrintRune('\n')
 }

@@ -3,8 +3,8 @@ package piscine
 import "ft"
 
 func PrintAlphabet() {
-	for al := 'a'; al <= 'z'; al++ {
-		ft.PrintRune(al)
+	for az := 'a'; az <= 'z'; az++ {
+		ft.PrintRune(az)
 	}
 	ft.PrintRune('\n')
 }
